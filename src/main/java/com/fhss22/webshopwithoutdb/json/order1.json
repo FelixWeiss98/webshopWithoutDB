@@ -1,1 +1,1 @@
-[{"orderID":1,"orderPrice":2.0,"productList":null},{"orderID":2,"orderPrice":7.0,"productList":null}]
+[{"orderID":1,"orderPrice":2.0,"productList":[{"productID":1,"productQuantity":10,"productName":"apple","productPrice":0.9},{"productID":2,"productQuantity":10,"productName":"banana","productPrice":2.5}]},{"orderID":2,"orderPrice":7.0,"productList":[{"productID":3,"productQuantity":10,"productName":"potatoes","productPrice":1.45},{"productID":4,"productQuantity":10,"productName":"beer","productPrice":1.6}]}]

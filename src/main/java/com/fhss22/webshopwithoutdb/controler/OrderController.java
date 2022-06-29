@@ -25,6 +25,5 @@ public class OrderController {
         if (orders1  == null && orders2 == null){
             fillOrderArrayList();
         }
-        JsonConverter.createJsonOrder(orders1, orders2);
     }
 }

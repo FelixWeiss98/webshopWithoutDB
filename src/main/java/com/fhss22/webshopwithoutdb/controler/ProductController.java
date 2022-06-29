@@ -35,6 +35,5 @@ public class ProductController {
         if (products1 == null && products2 == null && products3 == null && products4 == null){
             fillProductArrayList();
         }
-        JsonConverter.createJsonProduct(products1, products2, products3, products4);
     }
 }

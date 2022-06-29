@@ -48,6 +48,11 @@ public class CustomerController {
         if(orders2.get(1).getProductList() == null){
             orders2.get(1).setProductList(products4);
         }
+
+        //Creation after visiting localhost:8080/complete
+        JsonConverter.createJsonCustomer(customers);
+        JsonConverter.createJsonOrder(orders1, orders2);
+        JsonConverter.createJsonProduct(products1, products2, products3, products4);
         return customers;
     }
 
@@ -56,6 +61,5 @@ public class CustomerController {
         if (customers == null){
             fillCustomerArrayList();
         }
-        JsonConverter.createJsonCustomer(customers);
     }
 }
